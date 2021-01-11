@@ -6,10 +6,12 @@ The purpose of this assignment is to understand the mechanism of BitTorrent. Bit
 
 ## Input : 
 a csv file with the following structure:  
-[URL-1 for the object],[Number of parallel TCP connections to this URL]
-[URL-2 for the object],[Number of parallel TCP connections to this URL]
+```
+[URL-1 for the object],[Number of parallel TCP connections to this URL]  
+[URL-2 for the object],[Number of parallel TCP connections to this URL]  
 ..
 ..
+```
 
 ## Output :
 1. Downloaded file. gets saved in local directory.
@@ -39,3 +41,7 @@ Range: bytes=0-99
 ```
 3. Header and data is separated via 4 characters : \r, \n, \r, \n
 4. Implementation is unaffected by irregular interruptions in internet.
+
+
+Implemented by   
+Manoj Kumar
